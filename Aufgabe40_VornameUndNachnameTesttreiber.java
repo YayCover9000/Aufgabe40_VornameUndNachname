@@ -20,9 +20,12 @@ public class Aufgabe40_VornameUndNachnameTesttreiber {
 //		namen[0].setVorname("Peter");
 //		namen[0].setNachname("Pan");
 //		System.out.println(namen[0].toString());
-		for(int i = 0; i<groesseArray;i++) {
+		for(int i = 0; i<namen.length;i++) {
 			System.out.println(namen[i].toString());
 
+		}
+		for(Aufgabe40_VornameUndNachname e:namen) {
+			System.out.println(e.toString());
 		}
 	}
 }
